@@ -1,6 +1,14 @@
 # OdysseeyJS for Squirrels
 
-Since our January meetup, wherein we used squirrels as a theme for learning about LeafletJS, maptimeLEX and maptimeBoston, the latter of which is staunchly pro-rat, have been in a protracted #maptimewar. Most of the vitriole has come from the folks in Beantown, but we've managed to stand our ground pretty well thus far. That said, it's time to go on the offensive!
+Since our January meetup, wherein we used squirrels as a theme for learning about LeafletJS, maptimeLEX and maptimeBoston, the latter of which is staunchly pro-rat, have been in a protracted #maptimewar. To get caught up to speed, check out the videos below produced by maptimeLEX and maptimeBoston, respectively:
+
+### Video 1
+[![Totally objective account of the conflict](http://i1185.photobucket.com/albums/z344/buspainter2005/scary-rat_zps78mwjiaf.png)](https://youtu.be/rgQKYdT1v5Y)
+
+### Video 2
+[![Fox News-esque portrayal of squirrel aggression](http://i1185.photobucket.com/albums/z344/buspainter2005/bosrat-false-history_zpswefgcrbj.png)](https://youtu.be/RXqCxNEDZsw)
+
+Most of the vitriole has come from the folks in Beantown, but we've managed to stand our ground pretty well thus far.That said, it's time to go on the offensive!
 
 ## Fighting Back with OdysseyJS
 
