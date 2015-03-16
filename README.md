@@ -10,7 +10,7 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ## Getting started with OdysseyJS
 
-The easiest way to get going with OdysseyJS is with their [sandbox editor)[http://cartodb.github.io/odyssey.js/sandbox/sandbox.html]. In the sandbox you see your map in the background and a simple text editor in the foreground. As you make changes to your map in the text editor, those changes nearly immediately reflected in your map. Pretty cool! You also don't have to login or create an account with CartoDB (for now). Projects developed in the sandbox are saved as Gists which will have a persistent URL for handy access. 
+The easiest way to get going with OdysseyJS is with their [sandbox editor](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). In the sandbox you see your map in the background and a simple text editor in the foreground. As you make changes to your map in the text editor, those changes nearly immediately reflected in your map. Pretty cool! You also don't have to login or create an account with CartoDB (for now). Projects developed in the sandbox are saved as Gists which will have a persistent URL for handy access. 
 
 ## Basic Markdown Cheatsheet
 
@@ -24,4 +24,4 @@ The easiest way to get going with OdysseyJS is with their [sandbox editor)[http:
 
 ### Info & Resources on Lexington
 
-### Infor & Resources on squirrels
+### Info & Resources on squirrels
