@@ -66,10 +66,13 @@ Of these three elements, the heading is the most important. It's what tells Odys
 
 ##### A note on the map position
 We'll get to the syntax used to format your project in just a minute, but let's take second to look at what you need to get your map positioned and place a marker. There are three things you'll need to specify for your map:
-1. Center <br> `- center: [<latitude>,< longitude>]`
-2. Zoom <br> `- zoom: <number 0-18>`
-3. Marker position <br> `L.marker([<latitude>, <longitude>]).actions.addRemove(S.map)`
+
+1. *Center:* `- center: [<latitude>,< longitude>]`
+2. *Zoom:* `- zoom: <number 0-18>`
+3. *Marker position:* `L.marker([<latitude>, <longitude>]).actions.addRemove(S.map)`
+
 *Note: That text between* `<>` *should be replaced with the value specified by that text. When you add your own value, you don't include the* `<>`
+
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor3_zps47hnwriw.png)
 
 #### What are these symbols?!?!?
@@ -101,7 +104,8 @@ This is the URL used to access the basemap tiles used in your map. This leads us
 #### 2. Add whatever basemap you want!
 There is a wide variety of basemaps publicly and freely available for you to use. To add a basemap from outside OdysseyJS you need to
 1. Find the basemap URL
-2. Insert the basemap code into your header<br>```-baseurl: "<basemap URL>"```
+2. Insert the basemap code into your header: ```-baseurl: "<basemap URL>"```
+
 *Note: Make sure the basemap URL is between quotation marks* 
 
 ### Finishing up
@@ -111,12 +115,15 @@ When you're pleased with your map you have a few options for what to do next.
 CartoDB really wanted to make it easy to share your map. You don't even have to have your own website or blog or anything! When you use the OdysseyJS sandbox your project is actually be saved online as an anonymous Gist. It's OK if you've never heard of Gists. What's important to know is your project is being hosted online and that while its URL won't be pretty, it will be shareable 
 
 So how do you share your OdysseyJS map immediately? It takes just a couple steps:
-1. Click the "Share" button at the bottom-right of your editor (It looks like a little paper airplane!)<br>![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor6_zps4uoevnq8.png)
-2. You'll be given the option to share as a URL or an IFRAME. 'URL' links directly to your map, whereas 'IFRAME' allows you to embed your map in a website, blog, or presentation. The choice is yours! Whichever you decide, click 'COPY' to copy the text string you need to share your map. Paste the URL in your browser's address bar or paste the IFRAME in your website. Hopefully you see your map!<br>![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-share1_zpscikdm8yi.png)
+1. Click the "Share" button at the bottom-right of your editor (It looks like a little paper airplane!)
+![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor6_zps4uoevnq8.png)
+2. You'll be given the option to share as a URL or an IFRAME. 'URL' links directly to your map, whereas 'IFRAME' allows you to embed your map in a website, blog, or presentation. The choice is yours! Whichever you decide, click 'COPY' to copy the text string you need to share your map. Paste the URL in your browser's address bar or paste the IFRAME in your website. Hopefully you see your map!
+![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-share1_zpscikdm8yi.png)
 
 #### Go further
 As we mentioned above, the URL for sharing your map is not pretty. Maybe you want to host your OdysseyJS map and have it accessed from your own domain. Perhaps you'd like to mess around more with the OdysseyJS library [(documentation)](http://cartodb.github.io/odyssey.js/documentation/) to add greater functionality to your map and fit your project to your own personal brand. Or maybe you just want to see what's going under the hood of your OdysseyJS project. Whatever the case may be, you have the option of downloading your project. This takes just a couple steps:
-1. Click the "Download" button at the bottom-right of your editor (It's to the left of the "Share" button)<br>![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor7_zps9bx7n4qh.png)
+1. Click the "Download" button at the bottom-right of your editor (It's to the left of the "Share" button)
+![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor7_zps9bx7n4qh.png)
 2. Your project will download as compressed .zip file. Unzip it. Inside is ```index.html```. That's your project! Check it out or upload it to your own host to share via your own domain.
 
 ## Basic Markdown Cheatsheet
