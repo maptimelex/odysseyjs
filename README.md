@@ -102,7 +102,8 @@ You might notice that when you select a new basemap, there's a change in your he
 This is the URL used to access the basemap tiles used in your map. This leads us to option two
 
 #### 2. Add whatever basemap you want!
-There is a wide variety of basemaps publicly and freely available for you to use. To add a basemap from outside OdysseyJS you need to
+There is a wide variety of basemaps publicly and freely available for you to use. To add a basemap from outside OdysseyJS you need to:
+
 1. Find the basemap URL
 2. Insert the basemap code into your header: ```-baseurl: "<basemap URL>"```
 
