@@ -95,18 +95,15 @@ You'll edit your map in the OdysseyJS in the sandbox using Markdown. Markdown is
 
 ##### Basic Markdown for OdysseyJS
 
-- <code>```</code><br>Three backticks are used a couple of ways. 
+- <code>```</code> Three backticks are used a couple of ways: 
 
 1. At the beginning of your map you'll use two sets of three backticks to bracket your title and author. 
 2. In your states three backticks are used to separate your heading from your map position information and your map position information from your content.
 
-- ```#```<br>The pound/hashtag denotes not only a heading, but also a new state!
--  ```- ```<br>A dash functions differencely if used in the state's content element, or in the state's map position element.
+- ```#``` The pound/hashtag denotes not only a heading, but also a new state!
+-  ```- ``` You use the dash + space to list the properties of your map position element. The properties of the list items are used to format your map!
 
-1. A dash followed by a state is typically used in Markdown to denote a list item in an unordered list. You can use it that way in a state's content element. 
-2. It's used a little differently in the map position element of a state. You use the dash + space to list the properties of your map position element.  You're still making a list, but instead of showing up as a list in your content element, the properties of the list items are used to format your map!
-
-We've included a little cheatsheet of some basic Markdown syntax that will help you move beyond these essential elements to add some more custom styling to your map!
+We've included a little [cheatsheet of some basic Markdown syntax](#basic-markdown-cheatsheet) that will help you move beyond these essential elements to add some more custom styling to your map!
 
 ### Changing your basemap
 The default basemap in OdysseyJS is CartoDB Light. It's nice, but may not be the right aesthetic for your project. There are a couple ways to change your basemap
@@ -150,6 +147,21 @@ As we mentioned above, the URL for sharing your map is not pretty. Maybe you wan
 2. Your project will download as compressed .zip file. Unzip it. Inside is ```index.html```. That's your project! Check it out or upload it to your own host to share via your own domain.
 
 ## Basic Markdown Cheatsheet
+
+Markdown (.md) is a language specifically designed to be quick and easy to both read and to write. When it is read by a browser, it is translated into HTML (hypertext markup langauge, often the language used to define the structure of a webpage), however it is also meant to be readable in its plaintext format.
+
+If you're already familiar with Markdown (or HTML) that's great! But note that there are some minor differences between standard markdown and its use in OdysseyJS. Below are some of the most useful elements that you'll be using when interacting with OdysseyJS's editor.
+
+For more information on Markdown check out [this link](http://daringfireball.net/projects/markdown/) to Daring Fireball's docuementation. Also check out the OdysseyJS documentation on Markdown [here](http://cartodb.github.io/odyssey.js/documentation/#markdown-syntax). 
+
+- <code>```</code> Three sets of backticks should both (1) surround your title and author at the top of the editor, and (2) surround your map position elements. 
+- ```#``` Defines a new state and a makes a large header.
+- ```##``` Defines a smaller header.
+- ```-``` Followed by a space, defines map properties in the map's position element.
+- ```*``` or ```_``` Surrounding text with an asterix or underscore italicizes the text.
+- ```**``` or ```__``` Surrounding text with a double asterix or double underscore makes that text bold.
+- ```[text](URL)``` You can link externally by writing the text in square brackets, followed by a URL in regular parentheses.
+- ```![text](URL)``` You can add images in the same way as providing a link, but adding an exclamation point before the text in square brackets. In this case the text is not displayed, only providing a metadata reference for your image. 
 
 ## Ammunition against Boston
 
