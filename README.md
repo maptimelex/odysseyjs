@@ -48,6 +48,7 @@ The nifty thing about the OdysseyJS sandbox is that each template uses the platf
 
 #### Basic structure of an OdysseyJS story map
 Looking at the editor, there are two major parts of your story map:
+
 1. Header
 2. States
 
@@ -56,6 +57,7 @@ Looking at the editor, there are two major parts of your story map:
 The header comes at the beginning of your project. It is where you'll include the title and the author of the story map. Subsequently, that content will show up along the white footer at the bottom of your project.
 
 The states part is where you tell your story with OdysseyJS. As your story moves along, you'll want to change content and perhaps the position of the map. You can also think of the states as slides or sections. There are three elements to each state:
+
 1. Heading
 2. Map position
 3. Content
