@@ -115,15 +115,19 @@ When you're pleased with your map you have a few options for what to do next.
 CartoDB really wanted to make it easy to share your map. You don't even have to have your own website or blog or anything! When you use the OdysseyJS sandbox your project is actually be saved online as an anonymous Gist. It's OK if you've never heard of Gists. What's important to know is your project is being hosted online and that while its URL won't be pretty, it will be shareable 
 
 So how do you share your OdysseyJS map immediately? It takes just a couple steps:
+
 1. Click the "Share" button at the bottom-right of your editor (It looks like a little paper airplane!)
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor6_zps4uoevnq8.png)
+
 2. You'll be given the option to share as a URL or an IFRAME. 'URL' links directly to your map, whereas 'IFRAME' allows you to embed your map in a website, blog, or presentation. The choice is yours! Whichever you decide, click 'COPY' to copy the text string you need to share your map. Paste the URL in your browser's address bar or paste the IFRAME in your website. Hopefully you see your map!
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-share1_zpscikdm8yi.png)
 
 #### Go further
 As we mentioned above, the URL for sharing your map is not pretty. Maybe you want to host your OdysseyJS map and have it accessed from your own domain. Perhaps you'd like to mess around more with the OdysseyJS library [(documentation)](http://cartodb.github.io/odyssey.js/documentation/) to add greater functionality to your map and fit your project to your own personal brand. Or maybe you just want to see what's going under the hood of your OdysseyJS project. Whatever the case may be, you have the option of downloading your project. This takes just a couple steps:
+
 1. Click the "Download" button at the bottom-right of your editor (It's to the left of the "Share" button)
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor7_zps9bx7n4qh.png)
+
 2. Your project will download as compressed .zip file. Unzip it. Inside is ```index.html```. That's your project! Check it out or upload it to your own host to share via your own domain.
 
 ## Basic Markdown Cheatsheet
