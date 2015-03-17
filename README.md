@@ -8,7 +8,18 @@ Since our January meetup, wherein we used squirrels as a theme for learning abou
 ### Video 2
 [![Fox News-esque portrayal of squirrel aggression](http://i1185.photobucket.com/albums/z344/buspainter2005/bosrat-false-history_zpswefgcrbj.png)](https://youtu.be/RXqCxNEDZsw)
 
-Most of the vitriole has come from the folks in Beantown, but we've managed to stand our ground pretty well thus far.That said, it's time to go on the offensive!
+Most of the vitriol has come from the folks in Beantown, but we've managed to stand our ground pretty well thus far. That said, it's time to go on the offensive!
+
+### Contents
+
+1. [Getting Started with OdysseyJS](#getting-started-with-odysseyjs)
+<br>1.1. [The sandbox](#the-sandbox)
+<br>1.2. [The editor](#that-stuff-in-the-editor) 
+<br>1.3. [The basemap](#changing-your-basemap)
+<br>1.4. [Finishing and sharing](#finishing-up)
+2. [Markdown](#basic-markdown-cheatsheet)
+3. [Boston Resouces](#ammunition-against-boston)
+4. [Lexington Resources](#lexington-rules)
 
 ## Fighting Back with OdysseyJS
 
@@ -20,7 +31,7 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ### The sandbox
 
-The easiest way to get going with OdysseyJS is with their sandbox editor. Think of the sandbox as your place to play around with and build your map. You won't be able to take full advantage of the OdysseyJS library, but you'll be able to quickly get creative, do silly things, make mistakes, and do something amazing. The sandbox is pretty good metaphor!
+The easiest way to get going with OdysseyJS is with their sandbox editor. Think of the sandbox as your place to play around with and build your map. You won't be able to take full advantage of the [OdysseyJS library](http://cartodb.github.io/odyssey.js/documentation/), but you'll be able to quickly get creative, do silly things, make mistakes, and do something amazing. The sandbox is pretty good metaphor!
 
 You can find the OdysseyJS sandbox at [http://cartodb.github.io/odyssey.js/sandbox/sandbox.html](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). 
 When you get to the OdysseyJS sandbox you'll have the opportunity to choose from 3 different templates:
@@ -46,6 +57,8 @@ The appearance of those elements will differ slightly depending on the template 
 
 The nifty thing about the OdysseyJS sandbox is that each template uses the platform itself to present how to add content like images and text, change the position and zoom-level of the map, and place a marker in your map. You can follow along with the starter content that CartoDB has provided in the template, but let's still take a look at what's going on in the editor. We'll look at the content in the editor that comes with the slide template, but the principles hold up for scroll as well.
 
+On a laptop the editor may partially cover the content, especially if you selected the scroll option. If this is the case, remember that you can read the instructions in the editor box.
+
 #### Basic structure of an OdysseyJS story map
 Looking at the editor, there are two major parts of your story map:
 
@@ -56,7 +69,7 @@ Looking at the editor, there are two major parts of your story map:
 
 The header comes at the beginning of your project. It is where you'll include the title and the author of the story map. Subsequently, that content will show up along the white footer at the bottom of your project.
 
-The states part is where you tell your story with OdysseyJS. As your story moves along, you'll want to change content and perhaps the position of the map. You can also think of the states as slides or sections. There are three elements to each state:
+The states part is where you tell your story with OdysseyJS. Each new state is denoted by a hashtag symbol and blue text. This means that each time you slide or scroll to advance your story, you are moving the map to the stage as defined under the next line of blue text. Each time you do so, you can define a new center point and zoom level for your map, as well as new written content for your story. As your story moves along, you'll want to change content and perhaps the position of the map. You can also think of the states as slides or sections. There are three elements to each state:
 
 1. Heading
 2. Map position
@@ -88,7 +101,10 @@ You'll edit your map in the OdysseyJS in the sandbox using Markdown. Markdown is
 2. In your states three backticks are used to separate your heading from your map position information and your map position information from your content.
 
 - ```#```<br>The pound/hashtag denotes not only a heading, but also a new state!
--  ```- ```<br>A dash followed by a state is typically used in Markdown to denote a list item in an unordered list. You can use it that way in a state's content element. It's used a little differently in the map position element of a state. You use the dash + space to list the properties of your map position element.  You're still making a list, but instead of showing up as a list in your content element, the properties of the list items are used to format your map!
+-  ```- ```<br>A dash functions differencely if used in the state's content element, or in the state's map position element.
+
+1. A dash followed by a state is typically used in Markdown to denote a list item in an unordered list. You can use it that way in a state's content element. 
+2. It's used a little differently in the map position element of a state. You use the dash + space to list the properties of your map position element.  You're still making a list, but instead of showing up as a list in your content element, the properties of the list items are used to format your map!
 
 We've included a little cheatsheet of some basic Markdown syntax that will help you move beyond these essential elements to add some more custom styling to your map!
 
@@ -106,7 +122,7 @@ This is the URL used to access the basemap tiles used in your map. This leads us
 #### 2. Add whatever basemap you want!
 There is a wide variety of basemaps publicly and freely available for you to use. To add a basemap from outside OdysseyJS you need to:
 
-1. Find the basemap URL
+1. Find the basemap URL. You can find some samples [(here)](http://leaflet-extras.github.io/leaflet-providers/preview/). Remember that you only need the URL, not the additional code listed under "Plain JavaScript."
 2. Insert the basemap code into your header: ```-baseurl: "<basemap URL>"```
 
 *Note: Make sure the basemap URL is between quotation marks* 
