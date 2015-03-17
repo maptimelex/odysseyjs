@@ -18,7 +18,32 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ## Getting started with OdysseyJS
 
-The easiest way to get going with OdysseyJS is with their [sandbox editor](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). In the sandbox you see your map in the background and a simple text editor in the foreground. As you make changes to your map in the text editor, those changes nearly immediately reflected in your map. Pretty cool! You also don't have to login or create an account with CartoDB (for now). Projects developed in the sandbox are saved as Gists which will have a persistent URL for handy access. 
+### The sandbox
+
+The easiest way to get going with OdysseyJS is with their sandbox editor. Think of the sandbox as your place to play around with and build your map. You won't be able to take full advantage of the OdysseyJS library, but you'll be able to quickly get creative, do silly things, make mistakes, and do something amazing. The sandbox is pretty good metaphor!
+
+You can find the OdysseyJS sandbox at [http://cartodb.github.io/odyssey.js/sandbox/sandbox.html](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). 
+When you get to the OdysseyJS sandbox you'll have the opportunity to choose from 3 different templates:
+
+![OdysseyJS Templates](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-templates_zpsd7ykvi5n.png)
+
+When you've selected  your template, you'll head to the sandbox. There are 4 basic elements in the sandbox:
+
+1. Editor
+2. Title
+3. Content
+4. Map
+
+The appearance of those elements will differ slightly depending on the template (*We'll forego the Torque template for now*)
+
+#### Slide
+![Slide tempplate elements](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-slide1_zpsqcvqxhcv.png)
+
+#### Scroll
+![Scroll template elements](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-scroll1_zpsvtn2w7ph.png)
+
+
+Once you've selected your template, you'll enter the sandbox itself. In the sandbox you see your map in the background and a simple text editor in the foreground. As you make changes to your map in the text editor, those changes nearly immediately reflected in your map. Pretty cool! You also don't have to login or create an account with CartoDB (for now). Projects developed in the sandbox are saved as Gists which will have a persistent URL for handy access. 
 
 ## Basic Markdown Cheatsheet
 
