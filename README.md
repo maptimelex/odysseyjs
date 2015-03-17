@@ -122,7 +122,7 @@ This is the URL used to access the basemap tiles used in your map. This leads us
 #### 2. Add whatever basemap you want!
 There is a wide variety of basemaps publicly and freely available for you to use. To add a basemap from outside OdysseyJS you need to:
 
-1. Find the basemap URL. You can find some samples [(here)](http://leaflet-extras.github.io/leaflet-providers/preview/). Remember that you only need the URL, not the additional code listed under "Plain JavaScript."
+1. Find the basemap URL. You can find some samples [here](http://leaflet-extras.github.io/leaflet-providers/preview/). Remember that you only need the URL, not the additional code listed under "Plain JavaScript."
 2. Insert the basemap code into your header: ```-baseurl: "<basemap URL>"```
 
 *Note: Make sure the basemap URL is between quotation marks* 
