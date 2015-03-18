@@ -2,10 +2,10 @@
 
 Since our January meetup, wherein we used squirrels as a theme for learning about LeafletJS, maptimeLEX and maptimeBoston, the latter of which is staunchly pro-rat, have been in a protracted #maptimewar. To get caught up to speed, check out the videos below produced by maptimeLEX and maptimeBoston, respectively:
 
-### Video 1
+### Video 1 (maptimeLEX)
 [![Totally objective account of the conflict](http://i1185.photobucket.com/albums/z344/buspainter2005/scary-rat_zps78mwjiaf.png)](https://youtu.be/rgQKYdT1v5Y)
 
-### Video 2
+### Video 2 (maptimeBoston)
 [![Fox News-esque portrayal of squirrel aggression](http://i1185.photobucket.com/albums/z344/buspainter2005/bosrat-false-history_zpswefgcrbj.png)](https://youtu.be/RXqCxNEDZsw)
 
 Most of the vitriol has come from the folks in Beantown, but we've managed to stand our ground pretty well thus far. That said, it's time to go on the offensive!
@@ -23,7 +23,7 @@ Most of the vitriol has come from the folks in Beantown, but we've managed to st
 
 ## Fighting Back with OdysseyJS
 
-For this March meetup, we are going to try and keep things simple. We will use CartoDB's story mapping platform, OdysseyJS, to create maps that, through sheer volume and wit, will bring those ratscallions to their grimy knees! Don't pull your punches. These are some nasty folks we're up against. If you need some inspiration, remember their blatant act of aggression, pouring a beloved Central Kentucky beveridge into Boston Harbor!
+For this March meetup, we are going to try and keep things simple. We will use CartoDB's story mapping platform, OdysseyJS, to create maps that, through sheer volume and wit, will bring those ratscallions to their grimy knees! Don't pull your punches. These are some nasty folks we're up against. If you need some inspiration, remember their blatant act of aggression, pouring a beloved Central Kentucky libation into Boston Harbor!
 
 ![Boston Bourbon Party](http://i1185.photobucket.com/albums/z344/buspainter2005/boston-bourbon-party_zps7i8r0kvm.jpg)
 
@@ -31,9 +31,11 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ### The sandbox
 
-The easiest way to get going with OdysseyJS is with their sandbox editor. Think of the sandbox as your place to play around with and build your map. You won't be able to take full advantage of the [OdysseyJS library](http://cartodb.github.io/odyssey.js/documentation/), but you'll be able to quickly get creative, do silly things, make mistakes, and do something amazing. The sandbox is pretty good metaphor!
+The easiest way to get going with OdysseyJS is with their sandbox editor. Think of the sandbox as your place to play around with and build your map. You won't be able to take full advantage of the [OdysseyJS library](http://cartodb.github.io/odyssey.js/documentation/), but you'll be able to quickly get creative, do silly things, make mistakes, and do something amazing. The sandbox is a pretty good metaphor!
 
-You can find the OdysseyJS sandbox at [http://cartodb.github.io/odyssey.js/sandbox/sandbox.html](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). 
+You can find the OdysseyJS sandbox at:
+[http://cartodb.github.io/odyssey.js/sandbox/sandbox.html](http://cartodb.github.io/odyssey.js/sandbox/sandbox.html). 
+
 When you get to the OdysseyJS sandbox you'll have the opportunity to choose from 3 different templates:
 
 ![OdysseyJS Templates](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-templates_zpsd7ykvi5n.png)
@@ -63,13 +65,13 @@ On a laptop the editor may partially cover the content, especially if you select
 Looking at the editor, there are two major parts of your story map:
 
 1. Header
-2. States
+2. Chapters
 
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor1_zpsgsj4nb6g.png)
 
 The header comes at the beginning of your project. It is where you'll include the title and the author of the story map. Subsequently, that content will show up along the white footer at the bottom of your project.
 
-The states part is where you tell your story with OdysseyJS. Each new state is denoted by a hashtag symbol and blue text. This means that each time you slide or scroll to advance your story, you are moving the map to the stage as defined under the next line of blue text. Each time you do so, you can define a new center point and zoom level for your map, as well as new written content for your story. As your story moves along, you'll want to change content and perhaps the position of the map. You can also think of the states as slides or sections. There are three elements to each state:
+Chapters (sometimes also referred to as 'states') are where you tell your story with OdysseyJS. Each new chapter is denoted by a hashtag/pound symbol and blue text. This means that each time you slide or scroll to advance your story, you are moving the map to the stage as defined under the next line of blue text. Each time you do so, you can define a new center point and zoom level for your map, as well as new written content for your story. As your story moves along, you'll want to change content and perhaps the position of the map. You can also think of the chapters as slides or sections. There are three elements to each chapter:
 
 1. Heading
 2. Map position
@@ -77,7 +79,7 @@ The states part is where you tell your story with OdysseyJS. Each new state is d
 
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor2_zps85uucj5w.png)
 
-Of these three elements, the heading is the most important. It's what tells OdysseyJS, "Hey! I want a new state!" That said, a story of headings, while not inherently boring, is perhaps better told with using a different platform or medium. 
+Of these three elements, the heading is the most important. It's what tells OdysseyJS, "Hey! I want a new chapter!" That said, a story of headings, while not inherently boring, is perhaps better told with using a different platform or medium. 
 
 ##### A note on the map position
 We'll get to the syntax used to format your project in just a minute, but let's take second to look at what you need to get your map positioned and place a marker. There are three things you'll need to specify for your map:
@@ -86,9 +88,9 @@ We'll get to the syntax used to format your project in just a minute, but let's 
 2. *Zoom:* `- zoom: <number 0-18>`
 3. *Marker position:* `L.marker([<latitude>, <longitude>]).actions.addRemove(S.map)`
 
-*Note: That text between* `<>` *should be replaced with the value specified by that text. When you add your own value, you don't include the* `<>`
-
 ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-editor3_zps47hnwriw.png)
+
+*Note: Text between* `<>` *should be replaced with the value specified by that text. When you add your own value, you don't include the* `<>`
 
 #### What are these symbols?!?!?
 You'll edit your map in the OdysseyJS in the sandbox using Markdown. Markdown is frequently used to format text, but in this case we're also using it to format our map. Pretty cool! Now if you've never used Markdown, some of the symbols may seem a bit overwhelming. And honestly, Markdown's syntax allows you to do some pretty complex formatting. However, for our case it takes understanding just a few of the elements of Markdown to make a map with OdysseyJS.
@@ -98,9 +100,9 @@ You'll edit your map in the OdysseyJS in the sandbox using Markdown. Markdown is
 - <code>```</code> Three backticks are used a couple of ways: 
 
 1. At the beginning of your map you'll use two sets of three backticks to bracket your title and author. 
-2. In your states three backticks are used to separate your heading from your map position information and your map position information from your content.
+2. In your chapters three backticks are used to separate your heading from your map position information and your map position information from your content.
 
-- ```#``` The pound/hashtag denotes not only a heading, but also a new state!
+- ```#``` The pound/hashtag denotes not only a heading, but also a new chapter!
 -  ```- ``` You use the dash + space to list the properties of your map position element. The properties of the list items are used to format your map!
 
 We've included a little [cheatsheet of some basic Markdown syntax](#basic-markdown-cheatsheet) that will help you move beyond these essential elements to add some more custom styling to your map!
@@ -152,10 +154,10 @@ Markdown (.md) is a language specifically designed to be quick and easy to both 
 
 If you're already familiar with Markdown (or HTML) that's great! But note that there are some minor differences between standard markdown and its use in OdysseyJS. Below are some of the most useful elements that you'll be using when interacting with OdysseyJS's editor.
 
-For more information on Markdown check out [this link](http://daringfireball.net/projects/markdown/) to Daring Fireball's docuementation. Also check out the OdysseyJS documentation on Markdown [here](http://cartodb.github.io/odyssey.js/documentation/#markdown-syntax). 
+For more information on Markdown check out [this link](http://daringfireball.net/projects/markdown/) to Daring Fireball's documentation. Also check out the OdysseyJS documentation on Markdown [here](http://cartodb.github.io/odyssey.js/documentation/#markdown-syntax). 
 
 - <code>```</code> Three sets of backticks should both (1) surround your title and author at the top of the editor, and (2) surround your map position elements. 
-- ```#``` Defines a new state and a makes a large header.
+- ```#``` Defines a new chapter and a makes a large header.
 - ```##``` Defines a smaller header.
 - ```-``` Followed by a space, defines map properties in the map's position element.
 - ```*``` or ```_``` Surrounding text with an asterix or underscore italicizes the text.
@@ -167,10 +169,77 @@ For more information on Markdown check out [this link](http://daringfireball.net
 
 ### Info & Resources on Boston
 
+#### General Reference
+
+- [Boston, *Wikipedia*](https://en.wikipedia.org/wiki/Boston)
+- [Boston Globe](http://www.bostonglobe.com/)
+
+#### Boston H8in
+
+- [Worst Dressed US Cities (spoiler: Boston is #1)](http://deslide.clusterfake.net/?o=html_table&u=http%3A%2F%2Fwww.gq.com%2Fstyle%2Ffashion%2F201107%2Fworst-dressed-cities-america#slideimg40)
+- [10 Reasons Why Boston is Dumb (Rant Lifestyle)](http://www.rantlifestyle.com/2014/05/06/10-reasons-boston-dumb/)
+- [Terrible candy invented in Boston (Including something called *Squirrel Nut Caramels*!)](http://www.bdcwire.com/list/dear-america-we-invented-all-the-worst-candy-sorry-love-boston/)
+- [Boston College basketball point shaving scandal](http://en.wikipedia.org/wiki/1978%E2%80%9379_Boston_College_basketball_point_shaving_scandal)
+- [New England Patriots Scandals](http://www.barstoolsports.com/boston/aaron-hernandez-and-the-10-biggest-scandals-in-patriots-history/)
+- [Boston Red Sox terrible 2011 season](http://deadspin.com/5848921/pitchers-hooked-on-beer-fried-chicken-and-video-games-francona-on-pills-the-boston-globes-version-of-the-2011-red-sox-collapse)
+
+#### [Boston Icons](http://en.wikipedia.org/wiki/List_of_people_from_Boston)
+
+- [Ben Affleck](http://en.wikipedia.org/wiki/Ben_Affleck)
+- [Tom Brady](http://en.wikipedia.org/wiki/Tom_Brady)
+- [Dane Cook](http://en.wikipedia.org/wiki/Dane_Cook)
+- [John F Kennedy](http://en.wikipedia.org/wiki/John_F._Kennedy)
+- [Matt LeBlanc](http://en.wikipedia.org/wiki/Matt_LeBlanc)
+- [New Kids on the Block](http://en.wikipedia.org/wiki/New_Kids_on_the_Block)
+- [Mark Wahlberg](http://en.wikipedia.org/wiki/Mark_Wahlberg)
+
 ### Info & Resources on rats
+
+#### General Reference
+
+- [Rat, *Wikipedia*](http://en.wikipedia.org/wiki/Rat)
+- [Rat (Zodiac), *Wikipedia*](http://en.wikipedia.org/wiki/Rat_(zodiac))
+- [Rat King, *Wikipedia*](http://en.wikipedia.org/wiki/Rat_king_(folklore))
+- [Rat Men, *TV Tropes*](http://tvtropes.org/pmwiki/pmwiki.php/Main/RatMen)
+
+#### Rat Hazards
+
+- [RAT RELATED HEALTH HAZARDS & DISEASES](http://www.aaanimalcontrol.com/ratdiseases.htm)
+- [Rat Superstitions](http://www.snopes.com/luck/superstition/rats.asp)
+- [GIANT RATS!!!](http://cryptidz.wikia.com/wiki/Giant_Rat)
+- [RATS IN YOUR TOILET!!!](http://www.slate.com/blogs/browbeat/2013/07/16/snake_bites_man_s_penis_from_toilet_bowl_a_brief_history_of_when_rats_snakes.html)
 
 ## Lexington Rules
 
 ### Info & Resources on Lexington
 
+#### General Reference
+
+- [Lexington, *Wikipedia*](http://en.wikipedia.org/wiki/Lexington,_Kentucky)
+- [Lexington Herald-Leader](http://www.kentucky.com/)
+- [Kentucky Photo Archive](http://www.kyphotoarchive.com/)
+
+#### [Lexington Icons](http://en.wikipedia.org/wiki/List_of_people_from_Lexington,_Kentucky)
+
+- [Belle Brezing](http://en.wikipedia.org/wiki/Belle_Brezing)
+- [Henry Clay](http://en.wikipedia.org/wiki/Henry_Clay)
+- [George Clooney](http://en.wikipedia.org/wiki/George_Clooney)
+- [Ashley Judd](http://en.wikipedia.org/wiki/Ashley_Judd)
+- [Mary Todd Lincoln](http://en.wikipedia.org/wiki/Mary_Todd_Lincoln)
+- [Brain Littrell (of Backstreet Boys fame)](http://en.wikipedia.org/wiki/Brian_Littrell)
+- [Thomas Hunt Morgan](http://en.wikipedia.org/wiki/Thomas_Hunt_Morgan)
+- [Steve Zahn](http://en.wikipedia.org/wiki/Steve_Zahn)
+
+
 ### Info & Resources on squirrels
+
+#### General Reference
+
+- [Squirrel, *Wikipedia*](http://en.wikipedia.org/wiki/Squirrel)
+- [Ratatoskr, *Wikipedia*](http://en.wikipedia.org/wiki/Ratatoskr)
+
+#### Squirrels are so cool!
+
+- [Meaning of the Squirrel](http://www.whats-your-sign.com/animal-symbolism-squirrel.html)
+- [Role in oak planting and dispersal](http://www.sciencedaily.com/releases/1998/11/981126102802.htm)
+- [Cannibal Squirrels could end California's drought!](http://grist.org/climate-energy/hateful-little-cannibal-squirrels-could-help-california-drought/)
