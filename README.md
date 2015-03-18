@@ -27,6 +27,10 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ![Boston Bourbon Party](http://i1185.photobucket.com/albums/z344/buspainter2005/boston-bourbon-party_zps7i8r0kvm.jpg)
 
+### #maptimewar maps
+
+Submit a pull request on this repo to add your map or email the [share URL](#finishing-up) to [maptimelex@gmail.com](mailto:maptimelex@gmail.com) so we can show them off!
+
 ## Getting started with OdysseyJS
 
 ### The sandbox
@@ -140,7 +144,15 @@ So how do you share your OdysseyJS map immediately? It takes just a couple steps
 2. You'll be given the option to share as a URL or an IFRAME. 'URL' links directly to your map, whereas 'IFRAME' allows you to embed your map in a website, blog, or presentation. The choice is yours! Whichever you decide, click 'COPY' to copy the text string you need to share your map. Paste the URL in your browser's address bar or paste the IFRAME in your website. Hopefully you see your map!
 	- ![](http://i1185.photobucket.com/albums/z344/buspainter2005/odyssey-share1_zpscikdm8yi.png)
 
-#### Go further
+### Go further
+
+#### Edit your map later in the sandbox
+
+If for some reason you need to leave your map and want to come back and edit it later, that's fine! It is, however, a little less straightforward than hitting "Save As." Each time you make a change to your map, the URL for the sandbox changes. In order to save your at a particular point, you simply bookmark your sandbox at that moment. When you want to return to your project, simply find that URL in your browser's bookmarks.
+
+The upshot here of course is that if you share your map and then make changes to it in your sandbox, you'll need to share your map with its new URL for those changes to show up in your map. 
+
+#### Working with your map outside the sandbox
 As we mentioned above, the URL for sharing your map is not pretty. Maybe you want to host your OdysseyJS map and have it accessed from your own domain. Perhaps you'd like to mess around more with the OdysseyJS library [(documentation)](http://cartodb.github.io/odyssey.js/documentation/) to add greater functionality to your map and fit your project to your own personal brand. Or maybe you just want to see what's going under the hood of your OdysseyJS project. Whatever the case may be, you have the option of downloading your project. This takes just a couple steps:
 
 1. Click the "Download" button at the bottom-right of your editor (It's to the left of the "Share" button)
