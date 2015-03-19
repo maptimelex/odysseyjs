@@ -20,6 +20,7 @@ Most of the vitriol has come from the folks in Beantown, but we've managed to st
 2. [Markdown](#basic-markdown-cheatsheet)
 3. [Boston Resouces](#ammunition-against-boston)
 4. [Lexington Resources](#lexington-rules)
+5. [Maps + Story]()
 
 ## Fighting Back with OdysseyJS
 
@@ -30,6 +31,12 @@ For this March meetup, we are going to try and keep things simple. We will use C
 ### #maptimewar maps
 
 - [*Things I Find Displeasing about Boston*](http://bl.ocks.org/anonymous/raw/7245e3eb7ded2c84e6cf), Ryan Cooper
+- [*Happy St. Patrick's Day, Rats*](http://bl.ocks.org/anonymous/raw/8723d42beb4a74d96944), Brittany Cook Barrineau
+- [*Boston Sports Fails*](http://bl.ocks.org/anonymous/raw/b894e091151fa28fb3e2/), Chris Doerge
+- [*Squirrels March, Rats are Drunk*](http://bl.ocks.org/anonymous/raw/fe3b6f88be92fad12564/)
+- [*Noble Squirrels*](http://bl.ocks.org/anonymous/raw/cb877005bb5eb0a271cc), Ryan Cooper
+
+And then there's [the map](http://bl.ocks.org/anonymous/raw/756b7bbee6d1d5f472ac/) where Eric Schwartz overwhelmed us with a tour of all the places he lived during his nomadic years!
 
 Submit a pull request on this repo to add your map or email the [share URL](#finishing-up) to [maptimelex@gmail.com](mailto:maptimelex@gmail.com) so we can show them off!
 
@@ -257,3 +264,8 @@ For more information on Markdown check out [this link](http://daringfireball.net
 - [Meaning of the Squirrel](http://www.whats-your-sign.com/animal-symbolism-squirrel.html)
 - [Role in oak planting and dispersal](http://www.sciencedaily.com/releases/1998/11/981126102802.htm)
 - [Cannibal Squirrels could end California's drought!](http://grist.org/climate-energy/hateful-little-cannibal-squirrels-could-help-california-drought/)
+
+## Maps + Story
+
+- [*Hack Your Maps*](http://alistapart.com/article/hack-your-maps), Young Hahn
+- [*The Adventure of the Bruce-Partington Plans*](https://www.mapbox.com/tutorial-sherlock/step5-responsive.html). Story map adaptation of the Sir Arthur Conan Doyle story by Young Hahn for Mapbox
