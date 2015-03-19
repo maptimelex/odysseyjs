@@ -32,7 +32,7 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 - [*Things I Find Displeasing about Boston*](http://bl.ocks.org/anonymous/raw/7245e3eb7ded2c84e6cf), Ryan Cooper
 - [*Happy St. Patrick's Day, Rats*](http://bl.ocks.org/anonymous/raw/8723d42beb4a74d96944), Brittany Cook Barrineau
-- [*Boston Sports Fails*](http://bl.ocks.org/anonymous/raw/b894e091151fa28fb3e2/), Chris Doerge
+- [*Boston Sports Fails*](http://bl.ocks.org/anonymous/raw/49200835a9e1cf524843/), Chris Doerge
 - [*Squirrels March, Rats are Drunk*](http://bl.ocks.org/anonymous/raw/fe3b6f88be92fad12564/), Eric Huntley
 - [*Noble Squirrels*](http://bl.ocks.org/anonymous/raw/cb877005bb5eb0a271cc), Ryan Cooper
 - [*Rat Villains*](http://bl.ocks.org/anonymous/raw/78de8abeeb1dfc3b11cd/), Dan Cockayne (**Warning: Gruesome truths**)
