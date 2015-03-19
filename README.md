@@ -33,7 +33,7 @@ For this March meetup, we are going to try and keep things simple. We will use C
 - [*Things I Find Displeasing about Boston*](http://bl.ocks.org/anonymous/raw/7245e3eb7ded2c84e6cf), Ryan Cooper
 - [*Happy St. Patrick's Day, Rats*](http://bl.ocks.org/anonymous/raw/8723d42beb4a74d96944), Brittany Cook Barrineau
 - [*Boston Sports Fails*](http://bl.ocks.org/anonymous/raw/b894e091151fa28fb3e2/), Chris Doerge
-- [*Squirrels March, Rats are Drunk*](http://bl.ocks.org/anonymous/raw/fe3b6f88be92fad12564/)
+- [*Squirrels March, Rats are Drunk*](http://bl.ocks.org/anonymous/raw/fe3b6f88be92fad12564/), Eric Huntley
 - [*Noble Squirrels*](http://bl.ocks.org/anonymous/raw/cb877005bb5eb0a271cc), Ryan Cooper
 
 And then there's [the map](http://bl.ocks.org/anonymous/raw/756b7bbee6d1d5f472ac/) where Eric Schwartz overwhelmed us with a tour of all the places he lived during his nomadic years!
