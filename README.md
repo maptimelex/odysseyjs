@@ -29,6 +29,8 @@ For this March meetup, we are going to try and keep things simple. We will use C
 
 ### #maptimewar maps
 
+- [*Things I Find Displeasing about Boston*](http://bl.ocks.org/anonymous/raw/7245e3eb7ded2c84e6cf), Ryan Cooper
+
 Submit a pull request on this repo to add your map or email the [share URL](#finishing-up) to [maptimelex@gmail.com](mailto:maptimelex@gmail.com) so we can show them off!
 
 ## Getting started with OdysseyJS
