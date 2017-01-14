@@ -1,4 +1,4 @@
-# OdysseeyJS for Squirrels
+# OdysseyJS for Squirrels
 
 Since our January meetup, wherein we used squirrels as a theme for learning about LeafletJS, maptimeLEX and maptimeBoston, the latter of which is staunchly pro-rat, have been in a protracted #maptimewar. To get caught up to speed, check out the videos below produced by maptimeLEX and maptimeBoston, respectively:
 
